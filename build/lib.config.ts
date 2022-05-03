@@ -24,7 +24,7 @@ export default defineConfig({
     }
   },
   plugins: [
-    ...baseConfig.plugins,
+    ...(baseConfig as any).plugins,
     dts(),
   ]
 });
