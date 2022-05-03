@@ -1,7 +1,7 @@
-<script setup>
-    import demo from './demo.vue';
+<script lang="ts" setup>
+import demo from './demo.vue'
 </script>
 
-## 按钮
+# 按钮组件
 
-<demo/>
+<demo />

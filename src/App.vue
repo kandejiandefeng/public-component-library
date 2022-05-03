@@ -9,10 +9,11 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import ComponentList from '../packages/list.json';
 import { reactive } from 'vue';
 
+// 获取packages中的组件列表
 const data = reactive({
   links: ComponentList.map(item => ({
     path: `/components/${item.compName}`,

@@ -1,6 +1,6 @@
 <template>
     <div class="ceshi">
-        测试按钮
+        <slot></slot>
     </div>
 </template>
 

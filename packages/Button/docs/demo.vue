@@ -1,7 +1,14 @@
 <template>
-    <button></button>
+  <div class="demo">111
+  </div>
 </template>
 
-<script lang="ts" setup>
-import button from '../src';
+<script setup>
 </script>
+
+<style lang="less">
+.demo {
+    height: 400px;
+    width: 400px;
+}
+</style>
