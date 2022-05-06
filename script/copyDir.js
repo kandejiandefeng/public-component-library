@@ -1,7 +1,7 @@
 const child_process = require('child_process');
 
-const copyDir = (src, dist) => {
-  child_process.spawn('cp', ['-r', , src, dist]);
+const copyDir = () => {
+    child_process.exec('xcopy "packages" "docs/packages/" /f/y/s');
 };
 
-copyDir('./packages', './docs');
+copyDir();
