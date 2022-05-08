@@ -1,14 +1,20 @@
 [
-    {
-        "compName": "Button",
-        "compZhName": "按钮",
-        "compDesc": "这是一个按钮",
-        "compClassName": "button"
-    },
-    {
-        "compName": "FOO",
-        "compZhName": "示例",
-        "compDesc": "这是一个示例",
-        "compClassName": "Foo"
-    }
+  {
+    "compName": "Button",
+    "compZhName": "按钮",
+    "compDesc": "这是一个按钮",
+    "compClassName": "button"
+  },
+  {
+    "compName": "FOO",
+    "compZhName": "示例",
+    "compDesc": "这是一个示例",
+    "compClassName": "Foo"
+  },
+  {
+    "compName": "BouncedSelect",
+    "compZhName": "下拉表格弹框",
+    "compDesc": "下拉弹出表格选择",
+    "compClassName": "bounced-select"
+  }
 ]

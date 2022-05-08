@@ -1,5 +1,5 @@
 <template>
   <div>
-    <zs-foo />
+    <zs-bounced-select />
   </div>
 </template>

@@ -1,25 +1,29 @@
-import { createRouter, createWebHashHistory, RouterOptions } from 'vue-router';
+/* eslint-disable prettier/prettier */
 
-const routes = [
-    {
-        title: '按钮',
-        name: 'Button',
-        path: '/components/Button',
-        component: () => import('packages/Button/docs/README.md'),
-    },
-    {
-        title: '样品',
-        name: 'Foo',
-        path: '/components/Foo',
-        component: () => import('packages/Foo/docs/README.md'),
-    },
-    {
-        title: 'select点击弹表格选择',
-        name: 'selectTable',
-        path: '/components/selectTable',
-        component: () => import('packages/selectTable/docs/README.md'),
-    }
-];
+/** 
+ * !--------- FBI WARNING ----------!
+ * 
+ * 根据 /packages 目录下的组件所生成的组件类侧边导航栏配置，请勿手动修改
+ */
+
+import { createRouter, createWebHashHistory, RouterOptions } from 'vue-router'
+
+const routes = [{
+    title: '按钮',
+    name: 'Button',
+    path: '/components/Button',
+    component: () => import('packages/Button/docs/README.md'),
+}, {
+    title: '示例',
+    name: 'Foo',
+    path: '/components/Foo',
+    component: () => import('packages/Foo/docs/README.md'),
+}, {
+    title: '下拉表格弹框',
+    name: 'BouncedSelect',
+    path: '/components/BouncedSelect',
+    component: () => import('packages/BouncedSelect/docs/README.md'),
+}];
 
 const routerConfig = {
     history: createWebHashHistory(),
