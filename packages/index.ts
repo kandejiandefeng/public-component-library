@@ -8,19 +8,22 @@
 import { App, Plugin } from 'vue';
 
 import { ButtonPlugin } from './Button';
-import { FooPlugin } from './FOO';
+import { FooPlugin } from './Foo';
 import { BouncedSelectPlugin } from './BouncedSelect';
+import { TreeSelectPlugin } from './TreeSelect';
 
 const MYKitPlugin: Plugin = {
     install(app: App) {
         ButtonPlugin.install?.(app);
         FooPlugin.install?.(app);
         BouncedSelectPlugin.install?.(app);
+        TreeSelectPlugin.install?.(app);
     },
 };
 
 export default MYKitPlugin;
 
 export * from './Button'
-export * from './FOO'
+export * from './Foo'
 export * from './BouncedSelect'
+export * from './TreeSelect'

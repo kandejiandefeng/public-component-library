@@ -23,6 +23,11 @@ const routes = [{
     name: 'BouncedSelect',
     path: '/components/BouncedSelect',
     component: () => import('packages/BouncedSelect/docs/README.md'),
+}, {
+    title: '下拉树',
+    name: 'TreeSelect',
+    path: '/components/TreeSelect',
+    component: () => import('packages/TreeSelect/docs/README.md'),
 }];
 
 const routerConfig = {

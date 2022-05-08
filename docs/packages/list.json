@@ -4,5 +4,23 @@
     "compZhName": "按钮",
     "compDesc": "这是一个按钮",
     "compClassName": "button"
+  },
+  {
+    "compName": "Foo",
+    "compZhName": "示例",
+    "compDesc": "这是一个示例",
+    "compClassName": "Foo"
+  },
+  {
+    "compName": "BouncedSelect",
+    "compZhName": "下拉表格弹框",
+    "compDesc": "下拉弹出表格选择",
+    "compClassName": "bounced-select"
+  },
+  {
+    "compName": "TreeSelect",
+    "compZhName": "下拉树",
+    "compDesc": "下拉树结构选择",
+    "compClassName": "tree-select"
   }
 ]

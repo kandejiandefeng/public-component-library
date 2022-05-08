@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as o,a as c,b as r}from"./index.3b6c0202.js";const a={},n={class:"demo"};function d(_,e){return t(),o("div",n,"111 ")}var m=s(a,[["render",d]]);const i={class:"markdown-body"},l=r("h1",null,"\u6309\u94AE\u7EC4\u4EF6",-1),v={setup(_,{expose:e}){return e({frontmatter:{}}),(u,p)=>(t(),o("div",i,[l,c(m)]))}};export{v as default};
