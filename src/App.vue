@@ -1,11 +1,13 @@
 <template>
   <div class="my-kit-doc">
     <aside>
-      <router-link v-for="(link, index) in data.links" :key="index" :to="link.path">{{ link.name }}</router-link>
+        <div v-for="(link, index) in data.links" :key="index">
+            <router-link :to="link.path">{{ link.name }}</router-link>
+        </div>
     </aside>
-    <!-- <main> -->
+    <main>
       <router-view></router-view>
-    <!-- </main> -->
+    </main>
   </div>
 </template>
 
